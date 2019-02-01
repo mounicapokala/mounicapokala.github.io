@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    background: #e4e2e1;
+  }
+.container1{
+  margin: 0;
+  padding : 10px;
+  background: #fff;
+  
+  }
+
+.header {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: rgb(30, 172, 182);
+    border-radius: 3px;  
+}
+
+.header h1 a{
+  margin: 0;
+  color: #fff;  
+}
+
+
+.header2 h2{
+  color: rgb(30, 172, 182);
+  padding-bottom: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+
+.Figure{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.Figure img{
+  width: 100%;
+  height: 200px;
+}
+
+.Figure_comp img{
+  width: 50%;
+  height: 300px;
+}
+.Figure_comp h4{
+  font-size: 20px;
+}
+
+
+.header3 h3{
+  color: rgb(30, 172, 182);
+  padding-bottom: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .Figure_comp {
+    width: 100%;
+  }
+} 
